@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="PolicyReadTestCase" time="0.189" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Rk\maven\flipcart\backpacks\backpacks"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\Rk\maven\flipcart\backpacks\backpacks"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\RAMAKR~1\AppData\Local\Temp\surefirebooter18229676013062867562.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAMAKR~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;D:\Rk\software\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-11.0.14\bin;C:\Users\ramakrishnamopoori\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="surefire.test.class.path" value="D:\Rk\maven\flipcart\backpacks\backpacks\target\test-classes;D:\Rk\maven\flipcart\backpacks\backpacks\target\classes;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-assembly\2.0.1\tuscany-assembly-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-assembly-xml\2.0.1\tuscany-assembly-xml-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-assembly-xsd\2.0.1\tuscany-assembly-xsd-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-binding-ws\2.0.1\tuscany-binding-ws-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-binding-ws-wsdlgen\2.0.1\tuscany-binding-ws-wsdlgen-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-builder\2.0.1\tuscany-builder-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-common-java\2.0.1\tuscany-common-java-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-common-http\2.0.1\tuscany-common-http-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-common-xml\2.0.1\tuscany-common-xml-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-contribution\2.0.1\tuscany-contribution-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-core\2.0.1\tuscany-core-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-core-databinding\2.0.1\tuscany-core-databinding-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-core-spi\2.0.1\tuscany-core-spi-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-databinding\2.0.1\tuscany-databinding-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-databinding-jaxb\2.0.1\tuscany-databinding-jaxb-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-deployment\2.0.1\tuscany-deployment-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-extensibility\2.0.1\tuscany-extensibility-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-host-http\2.0.1\tuscany-host-http-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-interface-java\2.0.1\tuscany-interface-java-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-interface-java-jaxws\2.0.1\tuscany-interface-java-jaxws-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-interface-wsdl\2.0.1\tuscany-interface-wsdl-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\ws\commons\schema\XmlSchema\1.4.3\XmlSchema-1.4.3.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-monitor\2.0.1\tuscany-monitor-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-node-api\2.0.1\tuscany-node-api-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-sca-api\2.0.1\tuscany-sca-api-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-xsd\2.0.1\tuscany-xsd-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ramakrishnamopoori"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="ramakrishnamopoori"/>
+    <property name="java.class.path" value="D:\Rk\maven\flipcart\backpacks\backpacks\target\test-classes;D:\Rk\maven\flipcart\backpacks\backpacks\target\classes;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-assembly\2.0.1\tuscany-assembly-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-assembly-xml\2.0.1\tuscany-assembly-xml-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-assembly-xsd\2.0.1\tuscany-assembly-xsd-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-binding-ws\2.0.1\tuscany-binding-ws-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-binding-ws-wsdlgen\2.0.1\tuscany-binding-ws-wsdlgen-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-builder\2.0.1\tuscany-builder-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-common-java\2.0.1\tuscany-common-java-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-common-http\2.0.1\tuscany-common-http-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-common-xml\2.0.1\tuscany-common-xml-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-contribution\2.0.1\tuscany-contribution-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-core\2.0.1\tuscany-core-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-core-databinding\2.0.1\tuscany-core-databinding-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-core-spi\2.0.1\tuscany-core-spi-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-databinding\2.0.1\tuscany-databinding-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-databinding-jaxb\2.0.1\tuscany-databinding-jaxb-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-deployment\2.0.1\tuscany-deployment-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-extensibility\2.0.1\tuscany-extensibility-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-host-http\2.0.1\tuscany-host-http-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-interface-java\2.0.1\tuscany-interface-java-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-interface-java-jaxws\2.0.1\tuscany-interface-java-jaxws-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-interface-wsdl\2.0.1\tuscany-interface-wsdl-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\ws\commons\schema\XmlSchema\1.4.3\XmlSchema-1.4.3.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-monitor\2.0.1\tuscany-monitor-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-node-api\2.0.1\tuscany-node-api-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-sca-api\2.0.1\tuscany-sca-api-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\org\apache\tuscany\sca\tuscany-xsd\2.0.1\tuscany-xsd-2.0.1.jar;C:\Users\ramakrishnamopoori\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="C:\Users\RAMAKR~1\AppData\Local\Temp\surefirebooter18229676013062867562.jar C:\Users\RAMAKR~1\AppData\Local\Temp\surefire13549253165704121548tmp C:\Users\RAMAKR~1\AppData\Local\Temp\surefire13659630913710950207tmp"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\ramakrishnamopoori\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="PolicyReadTestCase" name="testPolicyWriting" time="0.1"/>
+  <testcase classname="PolicyReadTestCase" name="testPolicyReading" time="0"/>
+</testsuite>
